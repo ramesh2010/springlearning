@@ -1,0 +1,14 @@
+[2018-10-30 08:43:42 INFO  EmployeeConsumer:20]: 1. Data set by developer through code
+[2018-10-30 08:43:42 INFO  EmployeeConsumer:27]: Employee Details: Employee [eid=1, fname=Ramesh, mname=null, lname=Nallamothu, address=null]
+[2018-10-30 08:43:42 INFO  EmployeeConsumer:30]: 
+2. Data set by Spring IoC using XML
+[2018-10-30 08:43:42 INFO  EmployeeConsumer:32]: 2.1 Using BeanFactory!
+[2018-10-30 08:43:42 INFO  XmlBeanDefinitionReader:317]: Loading XML bean definitions from class path resource [bean-data.xml]
+[2018-10-30 08:43:43 INFO  EmployeeConsumer:40]: Employee 1 details: Employee [eid=1, fname=Ramesh, mname=null, lname=Nallamothu, address=Address [street=El Camino, city=Sunnyvale, state=California, zip=94086]]
+[2018-10-30 08:43:43 INFO  EmployeeConsumer:41]: Employee 2 details: Employee [eid=2, fname=Nithya, mname=Rachel, lname=Nallamothu, address=null]
+[2018-10-30 08:43:43 INFO  EmployeeConsumer:43]: 
+2.2 Using ApplicationContext!
+[2018-10-30 08:43:43 INFO  ClassPathXmlApplicationContext:581]: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6e1ec318: startup date [Tue Oct 30 08:43:43 PDT 2018]; root of context hierarchy
+[2018-10-30 08:43:43 INFO  XmlBeanDefinitionReader:317]: Loading XML bean definitions from class path resource [bean-data.xml]
+[2018-10-30 08:43:43 INFO  EmployeeConsumer:47]: Employee 1 details: Employee [eid=1, fname=Ramesh, mname=null, lname=Nallamothu, address=Address [street=El Camino, city=Sunnyvale, state=California, zip=94086]]
+[2018-10-30 08:43:43 INFO  ClassPathXmlApplicationContext:982]: Closing org.springframework.context.support.ClassPathXmlApplicationContext@6e1ec318: startup date [Tue Oct 30 08:43:43 PDT 2018]; root of context hierarchy
